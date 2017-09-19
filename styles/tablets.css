@@ -1,0 +1,77 @@
+@media screen and (min-width: 700px) {
+
+  /*Services*/
+  .services-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .service-card {
+    width: 50%;
+  }
+
+  .service-card {
+    width: 50%;
+  }
+
+  .service-card p {
+    padding: 0px 57px;
+  }
+
+  /*Home*/
+  .professional {
+    padding: 40px 15px 10px 15px;
+  }
+
+  .services-intro {
+    margin: 0px 40px 40px 40px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .featured-service {
+    padding: 0px 80px;
+    margin-bottom: 60px;
+  }
+
+
+  .featured-service img {
+
+    height: 280px;
+    width: 430px;
+    display: block;
+    margin: 0px auto;
+
+  }
+
+  .choose-us {
+    padding: 0px 40px 0px 40px;
+  }
+
+  .why-cards {
+    padding:20px 40px 20px 40px;
+    margin-bottom: 40px;
+  }
+
+  .testament-cards {
+    margin: 50px 50px 50px 50px;
+  }
+
+  /*About Us*/
+
+  .about-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .line {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .about-card {
+    padding: 0px 60px;
+  }
+}

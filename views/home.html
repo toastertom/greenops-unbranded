@@ -1,0 +1,74 @@
+
+  <div class="home-header">
+    <h1>Premier Lawn Maintenance <br/>Services</h1>
+  </div>
+
+  <div class="professional">
+    <div class="services-intro">
+      <h2>Professional Services</h2>
+      <p>Lorem ipsum dolor sit amet, vis ei nibh fierent, eros evertitur mea eu. At quem legimus vix. Dolorum vituperata cu sed, utinam convenire ex sed, vix et dolore copiosae. Aperiri discere adipiscing usu ne, harum nihil tacimates qui ei. Id sed nemore numquam legendos.</p>
+    </div>
+    <div class="featured-service" ng-repeat="featured in featuredServices">
+      <img src="{{featured.image}}"></img>
+      <h3>{{featured.title}}</h3>
+      <p>{{featured.desc}}</p>
+      <a ui-sref="services"><p>Learn More > </p></a>
+    </div>
+
+  </div>
+
+  <div class="choose-us">
+
+      <h2>Why <span>Choose Us?</span></h2>
+    <div class="why-container">
+      <div class="why-cards">
+        <h3>Free Consultations</h3>
+        <p>Lorem ipsum dolor sit amet, vis ei nibh fierent, eros evertitur mea eu. At quem legimus vix.</p>
+      </div>
+      <div class="why-cards">
+        <h3>Professionalism</h3>
+        <p>Lorem ipsum dolor sit amet, vis ei nibh fierent, eros evertitur mea eu. At quem legimus vix.</p>
+      </div>
+      <div class="why-cards">
+        <h3>Dependable Service</h3>
+        <p>Lorem ipsum dolor sit amet, vis ei nibh fierent, eros evertitur mea eu. At quem legimus vix.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonials">
+    <div class="testament-header">
+      <h2>Testimonials</h2>
+    </div>
+    <div class="testament-container">
+      <div class="testament-cards">
+        <p>I wanted to take this opportunity to thank you for the excellent service your company provides. Our yard always looks perfect when you are done. You are very thorough and always go the extra mile. Thanks again!</p>
+        <h4>
+          Bob & Kate
+          <br/>
+          <span>Layton, UT</span>
+        </h4>
+      </div>
+      <div class="testament-cards">
+        <p>I wanted to take this opportunity to thank you for the excellent service your company provides. Our yard always looks perfect when you are done. You are very thorough and always go the extra mile. Thanks again!</p>
+        <h4>
+          Karen
+          <br/>
+          <span>Layton, UT</span>
+        </h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-section">
+    <div class="contact-container">
+      <h2>Request a Quote!</h2>
+      <form>
+        <input placeholder="Your Name"></input>
+        <input placeholder="Your E-Mail Address"></input>
+        <textarea placeholder="Your Message..."></textarea>
+        <button>Send</button>
+      </form>
+    </div>
+
+  </div>

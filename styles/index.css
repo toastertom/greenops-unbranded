@@ -1,0 +1,228 @@
+html {
+  background: #333333;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #333333;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Header*/
+
+header {
+  color: #95989A;
+  width: 100%;
+}
+
+header .contact-info {
+  width: 100%;
+}
+
+header .contact-info p{
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+header .phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0px;
+  border-top: 1px solid #95989A;
+  border-bottom: 1px solid #95989A;
+  width: 100%;
+}
+
+header .social {
+  text-align: center;
+}
+
+header .phone p {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+
+header .phone .icon {
+  margin: 0px 5px;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  margin: 4px 10px;
+}
+
+header .social {
+  padding: 5px;
+}
+
+header .navigation {
+  width: 100vw;
+  background: #fff;
+  height: 73px;
+  margin: 0px;
+}
+
+ header .small-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ header .navigation img {
+ height: 58px;
+ width: 157px;
+ margin: 5px 15px;
+}
+
+ header .navigation button{
+  padding: 8px 16px 8px 16px;
+  border: 4px solid #2D7100;
+  border-radius: 5px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  margin: 5px 15px;
+}
+
+header button .menu-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2D7100;
+  margin: 0px 3px;
+}
+
+ .icon-bar {
+  display: inline-block;
+}
+
+ .bar {
+  width: 18px;
+  height: 3px;
+  background: #2D7100;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+/*Hamburger Menue*/
+
+
+nav {
+  display: block;
+  background: #333333;
+  overflow: hidden;
+  height: 0px;
+  transition: height 0.3s linear;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  background: #fff;
+  z-index: 50;
+
+}
+
+nav li {
+  text-align: center;
+  padding: 10px 0px;
+  width: 100vw;
+  color: #95989A;
+}
+
+/*nav li:hover {
+  font-size: 25px;
+}*/
+
+nav li .icon {
+  width: 18px;
+  height: 18px;
+  margin: 0px 15px;
+}
+
+.slide-down {
+  height: 240px;
+}
+
+/*Footer*/
+
+footer {
+  color: #95989A;
+}
+
+footer .foot-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer .contact-info-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+footer p {
+  margin: 0px;
+}
+
+footer button {
+  background: #2D7100;
+  color: #fff;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+}
+
+footer .bottom-nav {
+  display: none;
+}
+
+footer .phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px 0px 0px;
+  font-size: 12px;
+}
+
+footer .email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px 0px 0px;
+  font-size: 12px;
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+footer .foot-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+footer .foot-bottom p {
+  font-size: 12px;
+  padding-top: 10px;
+}
